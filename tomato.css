@@ -1,0 +1,135 @@
+body{
+	background-image: url("http://www.publicdomainpictures.net/download-picture.php?adresar=40000&soubor=grass-1366796906dab.jpg&id=38172");
+	background-size: cover;	
+}
+
+/*head part*/
+#h1My{
+	text-align: center;
+	color: #52BE80;
+	font-family: 'Almendra SC', serif;
+	font-size: 4em;
+}
+
+/*tomato time part*/
+#tomatoTime{
+	margin:auto;
+	text-align: center;
+	height: 320px;
+	width: 320px;
+	border-radius: 50%;
+	box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.5);
+ 	overflow:hidden; 
+ 	position:relative;
+ 	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#tomatoTime img{
+	margin-top: 5px;
+}
+
+.timestart{
+	font-size: 7em;
+	margin-top: 7%;
+	color:#F4D03F;
+}
+.timebreak{
+	font-size: 7em;
+	margin-top: 7%;
+	color:#D5DBDB;
+}
+
+#twoBtn{
+	position: relative;
+	margin-top:10%; 
+	text-align: center;
+}
+
+#startBtn,#refreshBtn{
+	border:1px solid white;
+
+	border-radius: 50px;
+	background-color:#EC7063;
+	color:white;
+}
+
+/*progress bar*/
+#progress1{
+    z-index;1;
+    width:0px;
+    height:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.P_progress{
+background-color:#FCF3CF;
+}
+.B_progress{
+	background-color:#E9F7EF;
+}
+.orignal_progress{
+	background-color: transparent;
+}
+.content1{
+    z-index:9;
+    position:relative;
+}
+
+#startBtn,#refreshBtn,#minusP,#addP,#minusB,#addB:focus{
+	outline:0;
+} 
+
+/*add the length for breaking and pomodoro*/
+#settingLength{
+	text-align: center;
+	margin-top:10px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#left{
+	display: inline;
+	float:left;
+	margin-left:35%;
+}
+
+#right{
+	display: inline;
+	float:right;
+	margin-right:35%;
+}
+
+#minusP,#addP,#minusB,#addB{
+	border-radius: 30px;
+	background-color: white;
+	color:#E74C3C;
+	border:1px solid white;
+}
+#P_set{
+	font-size: 2em;
+	color:#52BE80;
+
+}
+#B_set{
+	font-size: 2em;
+	color:#52BE80;
+}
+.p1{
+	color:#F8C471;
+}
+
+/*setting part*/
+#settingPart{
+	float:left;
+	margin-top: 10px;
+	margin-left: 35%;
+}
+label{
+	font-size: 15px;
+}
+
+#copyright{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	color:white;
+	font-size: 10px;
+}
